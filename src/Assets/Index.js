@@ -22,6 +22,8 @@ import smokeninja from "./Images/smokeninja.webp";
 import gbu from "./Images/gbu.gif";
 import joker from "./Images/joker.jpg";
 import facebook from "./Images/facebook.svg";
+import batmetal3 from "./Images/batmetal3.gif";
+import dexter from "./Images/dexter.gif";
 
 const images = {
   home,
@@ -48,6 +50,8 @@ const images = {
   gbu,
   joker,
   facebook,
+  batmetal3,
+  dexter,
 };
 
 export default images;
