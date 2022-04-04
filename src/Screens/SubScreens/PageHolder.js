@@ -28,7 +28,7 @@ const PageHolder = () => {
         <MessengerHolder />
       </div>
       {/* routing page */}
-      <Spacer width={15} />
+      <Spacer width={55} />
       <div
         style={{
           flex: 1,
@@ -42,7 +42,7 @@ const PageHolder = () => {
           <Route path="/faq" element={<FAQScreen />} />
         </Routes>
       </div>
-      <Spacer width={15} />
+      <Spacer width={55} />
       {/* events */}
       <div
         style={{
