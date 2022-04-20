@@ -1,0 +1,11 @@
+#host-messenger {
+  margin: 10px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.messenger {
+  height: 10;
+  width: 10;
+  border-radius: 5;
+}
