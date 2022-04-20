@@ -3,79 +3,22 @@ import Row from "./Styled/Row";
 import images from "../Assets/Index";
 import Spacer from "../Components/Spacer";
 import RecentlyEvents from "./RecentlyEvents";
+import "./EventHolder.css";
 
 const EventHolder = () => {
   return (
-    <div
-      style={{
-        borderRadius: 10,
-        backgroundColor: "#1a1c20",
-        padding: "10px 20px",
-      }}
-    >
-      <Row
-        style={{
-          alignItems: "center",
-          justifyContent: "space-between",
-        }}
-      >
-        <RegularText
-          style={{
-            fontSize: 18,
-            fontWeight: "bold",
-          }}
-        >
-          Events
-        </RegularText>
-        <img
-          alt="menuImage"
-          style={{
-            height: 30,
-            width: 30,
-          }}
-          src={images.menu}
-        />
+    <div id="host">
+      <Row className="first-row">
+        <RegularText className="events-title">Events</RegularText>
+        <img alt="menuImage" className="menu-img" src={images.menu} />
       </Row>
-      <div
-        style={{
-          padding: 10,
-          overflow: "hidden",
-          height: 200,
-          position: "relative",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-between",
-        }}
-      >
-        <img
-          style={{
-            opacity: 0.5,
-            zIndex: 1,
-            height: 200,
-            position: "absolute",
-            top: 0,
-            right: 0,
-            left: 0,
-            bottom: 0,
-          }}
-          src={images.event}
-          alt="eventimage"
-        />
-        <RegularText
-          style={{
-            zIndex: 5,
-            fontSize: 16,
-            fontWeight: 700,
-          }}
-        >
+      <div className="img-host">
+        <img className="img-event" src={images.event} alt="eventimage" />
+        <RegularText className="event-img-title">
           Video game toasting
         </RegularText>
 
-        <RegularText
-          style={{
-            zIndex: 5,
-          }}
-        >
+        <RegularText className="event-img-text">
           This is a cool event that people go to
         </RegularText>
       </div>
@@ -84,7 +27,7 @@ const EventHolder = () => {
         <RegularText style={{ color: "#1878f0" }}>All</RegularText>
       </Row>
       <Spacer />
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
+      <div className="recently-events">
         <RecentlyEvents
           simg={images.oktoberfest}
           title="Sober Oktoberfest"

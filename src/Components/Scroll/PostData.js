@@ -4,7 +4,7 @@ const PostData = [
   {
     id: 1,
     title: "Bad luck ninja",
-    text: "Unluky",
+    text: "Oh F**k!",
     imgPict: images.stiloso,
     img: images.smokeninja,
     width: "100%",
@@ -40,7 +40,7 @@ const PostData = [
   {
     id: 5,
     title: "Dexter",
-    text: "Omelette du Fromage",
+    text: "Omelette du Fromage!",
     imgPict: images.gollum,
     img: images.dexter,
     width: "100%",

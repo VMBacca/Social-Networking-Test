@@ -1,0 +1,11 @@
+#profile-host {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.username {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}

@@ -1,10 +1,7 @@
 import { useEffect, useState } from "react";
-import images from "../../Assets/Index";
 import Post from "../../Components/Post";
 import PostScroll from "../../Components/Scroll/PostScroll";
 import Spacer from "../../Components/Spacer";
-import Story from "../../Components/Story";
-import Row from "../../Components/Styled/Row";
 import ViniPost from "./ViniPost";
 
 const PostsScreen = () => {

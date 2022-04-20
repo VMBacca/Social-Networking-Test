@@ -1,25 +1,13 @@
 import images from "../Assets/Index";
 import CircleImageUser from "./CircleImageUser";
 import StyledGreyCard from "./Styled/StyledGreyCard";
+import "./HomeUser.css";
 
 function HomeUser() {
   return (
-    <StyledGreyCard
-      style={{
-        display: "flex",
-        alignItems: "center",
-      }}
-    >
+    <StyledGreyCard id="profile-host">
       <CircleImageUser image={images.stiloso} />
-      <p
-        style={{
-          color: "white",
-          fontSize: 18,
-          fontWeight: "bold",
-        }}
-      >
-        Username
-      </p>
+      <p className="username">Username</p>
     </StyledGreyCard>
   );
 }

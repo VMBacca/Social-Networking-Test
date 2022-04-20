@@ -1,0 +1,27 @@
+#host-search {
+  margin-left: 40px;
+}
+
+#host-search input {
+  height: 45px;
+  width: 250px;
+  border-radius: 25px;
+  background-color: #ffffff2a;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0px 15px;
+}
+
+#host-search button {
+  margin-left: 10px;
+  height: 45px;
+  width: 100px;
+  color: white;
+  font-size: 16px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #1878f0;
+}

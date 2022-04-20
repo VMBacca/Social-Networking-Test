@@ -12,7 +12,7 @@ const SimglePageApplication = () => {
           backgroundColor: "black",
         }}
       >
-        <div style={{ width: "90%", marginLeft: "5%", marginRight: "5%" }}>
+        <div style={{ width: "80%", marginLeft: "10%", marginRight: "10%" }}>
           <Header />
           <Spacer height={20} />
           <PageHolder />

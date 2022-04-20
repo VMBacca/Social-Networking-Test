@@ -1,0 +1,32 @@
+#main {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #1a1c20;
+}
+
+.row {
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.user-name {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.post {
+  text-align: justify;
+}
+
+.user-menu {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.user-picture {
+  margin-bottom: 20px;
+  height: 333px;
+  width: 100%;
+}

@@ -2,45 +2,16 @@ import HeaderSearch from "./HeaderSearch";
 import MenuItem from "./MenuItem";
 import images from "../Assets/Index.js";
 import MenuLogo from "./MenuLogo";
+import "./Header.css";
 
 function Header({ image }) {
   return (
-    <header
-      style={{
-        magin: "0px 50px",
-        padding: "20px 20px",
-        backgroundColor: "black",
-        borderBottom: "1px solid #ffffff2a",
-        borderBottomLeftRadius: 10,
-        borderBottomRightRadius: 10,
-        display: "flex",
-        flexDirection: "row",
-        alignItems: "center",
-        justifyContent: "space-between",
-      }}
-    >
-      <div
-        style={{ display: "flex", flexDirection: "row", alignItems: "center" }}
-      >
+    <header id="main-header">
+      <div className="logo">
         <MenuLogo link="/" image={images.facebook} />
-        <h1
-          style={{
-            margin: 0,
-            color: "white",
-            fontSize: 30,
-            fontWeight: "bold",
-          }}
-        >
-          FakeBook
-        </h1>
+        <h1 className="logo-title">FakeBook</h1>
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          alignItems: "center",
-        }}
-      >
+      <div className="menu-items">
         <div>
           <MenuItem link="/" image={images.home} />
           <MenuItem link="/video" image={images.play} />
