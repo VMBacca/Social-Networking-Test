@@ -27,7 +27,7 @@ const EventHolder = () => {
         <RegularText style={{ color: "#1878f0" }}>All</RegularText>
       </Row>
       <Spacer />
-      <div className="recently-events">
+      <div>
         <RecentlyEvents
           simg={images.oktoberfest}
           title="Sober Oktoberfest"

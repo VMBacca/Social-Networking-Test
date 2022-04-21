@@ -1,5 +1,6 @@
 #recently-event-host {
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  margin-bottom: 15px;
 }
 
 .date {
