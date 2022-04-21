@@ -1,6 +1,6 @@
 # Social-Networking-Test
 
-<p align="center"><img src="https://user-images.githubusercontent.com/102605061/164264591-00474da3-66ca-4d16-ab66-471ddc4ae117.jpg" width="60%" height="60%"> <p>
+<img src="https://user-images.githubusercontent.com/102605061/164264591-00474da3-66ca-4d16-ab66-471ddc4ae117.jpg" width="60%" height="60%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/102605061/164361046-14b6ae9b-9f41-4636-9e40-7aecdd584ea2.gif" width="30%" height="30%">
 
 ## Objective:
 
