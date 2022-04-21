@@ -1,28 +1,15 @@
 import SquareImage from "./SquareImage";
 import RegularText from "./Styled/RegularText";
 import Row from "./Styled/Row";
+import "./RecentlyEvents.css";
 
 function RecentlyEvents({ title, date, simg }) {
   return (
-    <Row>
+    <Row id="recently-event-host">
+      <p className="date">{date}</p>
       <SquareImage squareimg={simg} />
-      <div
-        style={{
-          marginLeft: 10,
-          padding: 10,
-        }}
-      >
-        <RegularText style={{ fontSize: 16, fontWeight: "bold" }}>
-          {title}
-        </RegularText>
-        <p
-          style={{
-            color: "#adadb3",
-            fontSize: 14,
-          }}
-        >
-          {date}
-        </p>
+      <div className="square-img">
+        <RegularText className="event-title">{title}</RegularText>
       </div>
     </Row>
   );

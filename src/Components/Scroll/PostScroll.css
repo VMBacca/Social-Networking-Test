@@ -1,0 +1,30 @@
+.story {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.buttons-position {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 25%;
+  border: none;
+  margin: 0px -18px;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 30px;
+  padding: 10;
+  color: white;
+}

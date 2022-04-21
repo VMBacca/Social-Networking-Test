@@ -7,6 +7,3 @@ const StyledGreyCard = styled.div`
 `;
 
 export default StyledGreyCard;
-
-// border-top-right-radius: 10px;
-// border-bottom-right-radius: 10px;
